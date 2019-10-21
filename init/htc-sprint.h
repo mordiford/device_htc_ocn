@@ -11,5 +11,5 @@ static const char *htc_sprint_properties =
     "ro.build.product=htc_ocnwhl\n"
     "persist.radio.VT_CAM_INTERFACE=2\n"
     "ro.telephony.default_network=10\n"
-    "ro.build.changelist=1002308\n"
+    "ro.build.changelist=1088389\n"
 ;

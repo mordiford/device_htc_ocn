@@ -3,5 +3,5 @@ static const char *htc_unlocked_properties =
     "ro.build.product=htc_ocnwhl\n"
     "persist.radio.NETWORK_SWITCH=2\n"
     "ro.telephony.default_network=9\n"
-    "ro.build.changelist=1011554\n"
+    "ro.build.changelist=1088389\n"
 ;

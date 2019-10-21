@@ -25,9 +25,9 @@ static const char *htc_emeads_properties =
     "persist.radio.NETWORK_SWITCH=2\n"    
     "ro.build.product=htc_ocndugl\n"
     "persist.radio.VT_CAM_INTERFACE=2\n"
-    "ro.telephony.default_network=9\n"
+    "ro.telephony.default_network=9,0\n"
     "persist.radio.sap_silent_pin=1\n"
     "ril.htc.multisim.cfg=dsds\n"
     "persist.radio.multisim.config=dsds\n"
-    "ro.build.changelist=1002308\n"
+    "ro.build.changelist=1088389\n"
 ;
