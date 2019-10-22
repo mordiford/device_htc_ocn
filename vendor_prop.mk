@@ -183,7 +183,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     
 # Sense
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.sense.version=10.0
+    ro.build.sense.version=9.0
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \

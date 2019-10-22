@@ -28,5 +28,5 @@ static const char *htc_emea_properties =
     "persist.radio.VT_CAM_INTERFACE=2\n"
     "ro.telephony.default_network=9\n"
     "persist.radio.sap_silent_pin=1\n"
-    "ro.build.changelist=1088389\n"
+    "ro.build.changelist=1002308\n"
 ;
