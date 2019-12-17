@@ -4,3 +4,15 @@ dontaudit untrusted_app_all proc_zoneinfo:file { getattr open read };
 dontaudit untrusted_app_all proc_stat:file { getattr open read };
 dontaudit untrusted_app_all hal_memtrack_hwservice:hwservice_manager find;
 dontaudit untrusted_app_all hal_memtrack_default:binder call;
+
+allow untrusted_app apk_data_file:file { setattr } ;
+allow untrusted_app e2fs_exec:file { getattr } ;
+allow untrusted_app idmap_exec:file { getattr } ;
+allow untrusted_app keystore_exec:file { getattr } ;
+allow untrusted_app rootfs:dir { read } ;
+allow untrusted_app storaged_exec:file { getattr } ;
+allow untrusted_app system_data_file:dir { read } ;
+allow untrusted_app system_data_file:dir { rmdir } ;
+allow untrusted_app system_data_file:dir { write } ;
+allow untrusted_app untrusted_app:unix_stream_socket { connectto } ;
+allow untrusted_app usbd_exec:file { getattr } ;
