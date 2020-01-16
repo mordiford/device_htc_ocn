@@ -8,11 +8,6 @@ allow init sysfs_kgsl:lnk_file read;
 allow init hidl_base_hwservice:hwservice_manager add;
 allow init device_latency:chr_file { open write };
 
-allow init system_file:dir { relabelfrom } ;
-allow init vendor_configs_file:dir { relabelfrom } ;
-allow init vendor_configs_file:file { relabelfrom } ;
-allow init vendor_file:dir { relabelfrom } ;
-
 # Allow init to chown/chmod on pseudo files in /sys
 allow init sysfs_type:file { open read write setattr };
 
